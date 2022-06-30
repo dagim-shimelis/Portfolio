@@ -7,7 +7,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), Pages(),Components(), Layouts({layoutsDirs: 'src/layouts'})],
+  plugins: [vue(), Pages(),Components(), Layouts({layoutsDirs: 'src/layouts',nuxtStyle:true})],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

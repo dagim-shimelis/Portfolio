@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title {
+    @apply text-5xl md:text-6xl font-Lexend m-0 text-center uppercase;
+}
+.slist-icon{
+    @apply text-primaryTextTheme text-3xl mt-2.5
+}
+.slist-icon-phone{
+    @apply text-primaryTextTheme text-3xl mt-1
+}
+
+.slist-small-icon{
+    @apply text-primaryTextTheme text-xl mt-0.5 flex gap-2
+}
