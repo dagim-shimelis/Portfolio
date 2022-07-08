@@ -1,24 +1,26 @@
 <template>
-  <div class="projects-page">
+  <div class="projects-page" id="projects">
     <div class="pre-projects-title title md:pt-10"></div>
     <div class="pre-projects PRO1">
-      <div class="project-preview">
-        <img
-          class="iphone"
-          src="@/assets/image/iphonex.png"
-          alt="iphonex"
-          width="100%"
-          height="100%"
-        />
-        <div class="p-frame">
-          <iframe src="https://cookies-cafe.herokuapp.com/"></iframe>
+      <div class="phone">
+        <div class="project-preview">
+          <img
+            class="iphone"
+            src="@/assets/image/iphonex.png"
+            alt="iphonex"
+            width="100%"
+            height="100%"
+          />
+          <div class="p-frame">
+            <iframe src="https://cookies-cafe.herokuapp.com/"></iframe>
+          </div>
         </div>
       </div>
-      <div class="project-details mt-[15vh] md:mt-0">
+      <div class="project-details mt-[35vh] md:mt-0">
         <div class="text-5xl mb-6 sm:text-left">Cookies Cafe</div>
         <div class="text-justify pr-12 md:pr-36 mb-2">
-          &emsp; Cookies Cafe is an e-comers based web application built for
-          large cafes and who want to expand their business to the next level by
+          &emsp; Cookies Cafe is an E-commerce based web application built for
+          large cafes who want to expand their business to the next level by
           offering food delivery system that has a beautiful design and an
           attractive user interface, the website is built with the main focus of
           making the process very easy and appealing for the user.
@@ -36,8 +38,13 @@
             <span class="iconify" data-icon="vscode-icons:file-type-php"></span>
           </div>
         </div>
-        <div class="p-link">
-          <a href="https://cookies-cafe.herokuapp.com/">Go to WebPage</a>
+         <div class="md:mt-12 mt-6 text-lg text-green-600">
+           90% Complete
+          </div>
+        <div class="p-link md:mt-12 mt-4 text-lg">
+          <a href="https://cookies-cafe.herokuapp.com/" target="_blank"
+            >Go to WebPage</a
+          >
         </div>
       </div>
     </div>
@@ -48,15 +55,13 @@
           ZENA NewsNetwork
         </div>
         <div class="text-justify pl-12 md:pr-0 md:pl-36 pl-0 pr-12 mb-2">
-          &emsp; Ur Savior is a website focused on providing students of any
-          stage and field with effective support on challenging aspects of the
-          educational experiences .this web site has a number of qualified team
-          of experts to provide you a quick and satisfying service 24/7 with
-          unbelievably low price. The site also provides complete anonymity for
-          students who wish to stay anonymous or you can create an account and
-          become a member or as we like to say it "a member of the family”. I
-          highly recommend you check it out because who knows.. You might need
-          help on something someday.
+          &emsp; A news network platform that organizes, update and post news
+          daily, so no one has to search through different platforms just to get
+          news and get informed. this system posts news from different news
+          organizations like ETV, ADDIS ZEMEN, NEGARIT, ADDISFOURTUNE, FANA TV,
+          EBS, and any other global news networks with an aid of pictures and
+          articles, and also digitalized newspapers and magazines from many
+          local press organizations as well.
         </div>
         <div class="p-coder md:relative">
           <div class="md:absolute right-0">
@@ -81,11 +86,16 @@
             </div>
           </div>
         </div>
-        <div class="p-link md:mt-32 mt-12"><a href="#">Go to WebPage</a></div>
+          <div class="md:mt-12 mt-6 text-lg text-green-600">
+           85% Complete
+          </div>
+        <div class="p-link md:mt-12 mt-4 text-lg">
+          <a href="http://localhost:3001/" target="_blank">Go to WebPage</a>
+        </div>
       </div>
 
-      <div class="project-preview">
-        <img
+      <div class="project-preview  phone">
+        <!-- <img
           class="iphone"
           src="@/assets/image/iphonex2.png"
           alt="iphonex"
@@ -93,8 +103,15 @@
           height="100%"
         />
         <div class="p-frame">
-          <iframe src="http://localhost/1/xxx/index.html"></iframe>
-        </div>
+          <iframe src="http://192.168.1.8:3001/"></iframe>
+        </div> -->
+
+        <div class="app-img md:w-[50vw]">
+                  <img
+                    src="@/assets/image/download-app.png"
+                    alt="Download-App"
+                  />
+                </div>
       </div>
     </div>
   </div>

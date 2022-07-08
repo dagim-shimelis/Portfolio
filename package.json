@@ -9,7 +9,7 @@
     "test": "vitest --dom"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.5.0",
+    "@headlessui/vue": "^1.6.5",
     "@heroicons/vue": "^1.0.5",
     "@vueuse/components": "^8.0.1",
     "@vueuse/core": "^8.0.1",

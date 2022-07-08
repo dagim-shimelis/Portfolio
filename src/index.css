@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .title {
-    @apply text-5xl md:text-6xl font-Lexend m-0 text-center uppercase;
+    @apply text-4xl md:text-6xl font-Lexend m-0 text-center uppercase;
 }
 .slist-icon{
     @apply text-primaryTextTheme text-3xl mt-2.5
@@ -16,4 +16,8 @@
 
 .slist-small-icon{
     @apply text-primaryTextTheme text-xl mt-0.5 flex gap-2
+}
+
+.phone{
+    @apply md:mt-0 -mt-28 md:-ml-0 ml-[10vw]
 }

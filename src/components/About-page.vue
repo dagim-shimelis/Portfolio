@@ -1,5 +1,5 @@
 <template>
-  <div class="my-24 w-screen">
+  <div class="my-24 w-screen" id="about">
     <div class="about-title title self-center"></div>
     <div class="about-me-space"></div>
     <div
@@ -30,7 +30,7 @@
             (MongoDB, Express, VueJs, & NodeJs).
           </p>
           <p class="mt-4">
-            I honed my skills at web development, technical writing, and product
+            I honed my skills on web development, technical writing, and product
             design at Addis Ababa Science and Technology University. Being a
             diligent, hardworking and result oriented person, I always work
             towards achieving best result on each project I lay my hands on.

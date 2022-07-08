@@ -9,6 +9,8 @@ module.exports = {
         primaryTextWhite:"#fff",
         primaryTextBlack:"#151515",
         primaryTextTheme:"#017ba9",
+
+        primaryBlack:"#151515",
       },
       fontFamily: {
         Montserrat: "'Montserrat', sans-serif",

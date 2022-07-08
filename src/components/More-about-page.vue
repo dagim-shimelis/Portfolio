@@ -134,7 +134,7 @@
                   Birth Place
                 </th>
                 <td class="about__detail__table__row_td pl-5">
-                  A/A, Ethiopian
+                  A/A, Ethiopia
                 </td>
               </tr>
               <tr class="about__detail__table__row">
@@ -322,6 +322,11 @@
               <P class="about__detail__text__description">
                 <span class="sep">|</span>
                 API Development
+              </P>
+              <h4>Project</h4>
+              <P class="about__detail__text__description">
+                <span class="sep">|</span>
+                ZENA News-Network
               </P>
               <h4>Entertainment</h4>
               <P class="about__detail__text__description">

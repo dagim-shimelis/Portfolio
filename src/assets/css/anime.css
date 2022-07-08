@@ -13,12 +13,12 @@
     white-space: pre-wrap;
 }
 .tool-list-title::before{
-    content: 'tools we use';
+    content: 'tools I use';
     animation: tools-title  1.5s infinite alternate;
 }
-.team-title::before{
-    content: 'our team';
-    animation: team-title  1.5s infinite alternate;
+.contact-title::before{
+    content: 'Lets Talk';
+    animation: contact-title  1.5s infinite alternate;
 }
 
 .hero-title-nbr::before {
@@ -61,67 +61,67 @@
 @keyframes projects-title {
    
     0% {
-        content: 'Previous projects';
+        content: 'Projects';
     }
 
     2% {
-        content: '34!#H*2   7%D$%dft3';
+        content: '34!#H*2';
     }
 
     4% {
-        content: '/%#!`23   !#$(kg*%-';
+        content: '/%#!`23 ';
     }
 
     6% {
-        content: 'Cnghs%x^   T67%asGq$';
+        content: 'Cnghs%x^';
     }
 
     8% {
-        content: 'hoosuss   fg#^sd*3';
+        content: 'hoosuss=';
     }
 
     10% {
-        content: 'T67%asGq$   SF5*%78S';
+        content: 'T67%asGq$';
     }
 
     12% {
-        content: '!#$(kg*%-   Cnghs%x^';
+        content: '!#$(kg*%-';
     }
     14% {
-        content: 'fg#^sd*3   hoosuss';
+        content: 'fg#^sd*3';
       
     }16% {
-        content: '7%D$%dft3   W#$%475%';
+        content: '7%D$%dft3';
     }
 
     18% {
-        content: '^&\Hrehz   34!#H*2';
+        content: '^&\Hrehz';
     }
 
     20% {
-        content: '7%D$%dft3   /%#!`23';   
+        content: '7%D$%dft3]';   
 
     }
 
     22% {
-        content: 'W#$%475%   ^&\Hrehz';
+        content: 'W#$%475%';
     }
     
      24% {
-        content: 'Previous projects';
+        content: 'Projects';
     }
 
     100% {
-        content: 'Previous projects';
+        content: 'Projects';
         
 
     }
 }
 
-@keyframes team-title {
+@keyframes contact-title {
    
     0% {
-        content: 'our team';
+        content: 'Lets Talk';
     }
 
     2% {
@@ -168,12 +168,12 @@
     }
     
      24% {
-        content: 'our team';
+        content: 'Lets Talk';
       
     }
 
     100% {
-        content: 'our team';
+        content: 'Lets Talk';
         
 
     }
@@ -242,7 +242,7 @@
 
 @keyframes tools-title {
     0% {
-        content: 'tools we use';
+        content: 'tools I use';
         
     }
 
@@ -326,12 +326,12 @@
 */
 
     24% {
-        content: 'tools we use';
+        content: 'tools I use';
       
     }
 
     100% {
-        content: 'tools we use';
+        content: 'tools I use';
         
 
     }
@@ -660,3 +660,4 @@
     /* added at the last moment */
  /* transform : rotate(90deg); */
 }
+

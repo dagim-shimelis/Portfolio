@@ -1,7 +1,7 @@
 <template>
   <div class="landing-page">
     <nav
-      class="bg-white border-gray-200 w-screen z-50 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
+      class=" w-screen z-50 px-2 sm:px-4 py-2.5  dark:bg-gray-800"
     >
       <div
         class="container flex flex-wrap justify-between items-center mx-auto"
@@ -10,7 +10,7 @@
           <img
             src="@/assets/image/logo.png"
             class="mr-3 h-6 sm:h-9"
-            alt="Flowbite Logo"
+            alt="Logo"
           />
           <span
             class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
@@ -24,9 +24,11 @@
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
-          <span class="sr-only">Open main menu</span>
+          <!-- <span class="sr-only">Open main menu</span> -->
           <svg
+            @click="toggleShow"
             class="w-6 h-6"
+            :class="!hidden ? 'hidden' : ''"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +40,9 @@
             ></path>
           </svg>
           <svg
-            class="hidden w-6 h-6"
+            @click="toggleShow"
+            class="w-6 h-6"
+            :class="hidden ? 'hidden' : ''"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -50,42 +54,47 @@
             ></path>
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+
+        <div
+          class="w-full md:block md:w-auto"
+          :class="hidden ? 'hidden' : ''"
+          id="mobile-menu"
+        >
           <ul
             class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
           >
             <li>
               <a
                 href="#"
-                class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 aria-current="page"
                 >Home</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >About</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >Services</a
+                >Projects</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#tools"
                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >Pricing</a
+                >Tools</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >Contact</a
               >
@@ -137,12 +146,10 @@
             />
           </div>
         </div>
-        <div
-          class="ml-16 z-30 mt-52 md:mt-24"
-        >
+        <div class="ml-16 z-30 mt-52 md:mt-24">
           <div class="">
             <div
-              class="hero-title-nbr text-primaryTextWhite md:text-2xl ease duration-1000  text-xl font-md self-center overflow-hidden "
+              class="hero-title-nbr text-primaryTextWhite md:text-2xl ease duration-1000 text-xl font-md self-center overflow-hidden"
             ></div>
             <h1
               class="hero-title w-[60vw] text-primaryTextWhite text-7xl text-left my-6"
@@ -160,12 +167,11 @@
               >______________________</spam
             >
           </div>
-          <a href="#nav" class="">
+          <a href="https://mailxto.com/47ayns" target="_blank">
             <button
               class="hero-btn ml-12 md:ml-0 uppercase cursor-pointer outline-none border-2 border-primaryTextTheme px-6 rounded-md text-xl text-primaryTextTheme border-solid mt-12 hover:text-primaryTextBlack hover:bg-primaryTextTheme"
-              onclick="hireUs()"
             >
-             Let's Talk
+              Let's Talk
             </button></a
           >
         </div>
@@ -173,3 +179,13 @@
     </header>
   </div>
 </template>
+
+<script setup>
+import { ref } from "vue";
+
+const hidden = ref(true);
+
+const toggleShow = () => {
+  hidden.value = hidden.value ? false : true;
+};
+</script>
