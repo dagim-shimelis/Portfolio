@@ -7,17 +7,18 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), Pages(),Components(), Layouts({layoutsDirs: 'src/layouts',nuxtStyle:true})],
+  plugins: [vue(), Pages(), Components(), Layouts({ layoutsDirs: 'src/layouts', nuxtStyle: true })],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     }
-  }, 
+  },
   test: {
     globals: true
   },
-  server: { 
+  server: {
     host: '0.0.0.0',
     port: '3000'
   },
+  publicPath: '/portfolio/'
 })
