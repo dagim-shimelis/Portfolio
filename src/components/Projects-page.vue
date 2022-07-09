@@ -90,7 +90,7 @@
            85% Complete
           </div>
         <div class="p-link md:mt-12 mt-4 text-lg">
-          <a href="http://localhost:3001/" target="_blank">Go to WebPage</a>
+          <a href="https://zena-newsnetwork.netlify.app/" target="_blank">Go to WebPage</a>
         </div>
       </div>
 
@@ -103,7 +103,7 @@
           height="100%"
         />
         <div class="p-frame">
-          <iframe src="http://192.168.1.8:3001/"></iframe>
+          <iframe src="https://zena-newsnetwork.netlify.app/"></iframe>
         </div> -->
 
         <div class="app-img md:w-[50vw]">
