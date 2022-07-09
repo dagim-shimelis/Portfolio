@@ -6,7 +6,7 @@
       class="about-me-content mt-6 md:mt-12 text-justify md:text-left px-12 md:px-32 grid  md:grid-cols-2"
     >
         <img
-          src="@/assets/image/profile.jpg"
+          src="@/assets/image/profile-pic.jpg"
           class="drop-shadow-2xl rounded-lg "
           alt="profile"
         />
