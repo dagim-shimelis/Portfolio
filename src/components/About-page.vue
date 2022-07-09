@@ -6,13 +6,13 @@
       class="about-me-content mt-6 md:mt-12 text-justify md:text-left px-12 md:px-32 grid  md:grid-cols-2"
     >
       <div class="">
-        <img
+        <!-- <img
           class="drop-shadow-2xl rounded-lg "
-          src="@/assets/image/profile.jpg"
+          src="src/assets/image/profile.jpg"
           alt="our aim"
           width="100%"
           height="100%"
-        />
+        /> -->
       </div>
       <div class="p-3 md:p-16 md:pt-0 ">
         <div class="capitalize font-Lexend text-2xl mb-5">Who I am</div>
