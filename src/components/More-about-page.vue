@@ -19,8 +19,8 @@
                 <span class="iconify" data-icon="iconoir:info-empty"></span>
               </div>
               <div class="slist-title">Basic Information</div>
-              <div class="slist-btn">
-                <button class="s-btn">
+              <div class="slist-btn  !self-center">
+                <button class="s-btn ">
                   <i class="fa fa-arrow-alt-circle-right"></i>
                 </button>
               </div>
@@ -34,7 +34,7 @@
                 <span class="iconify" data-icon="iconoir:book"></span>
               </div>
               <div class="slist-title">Education</div>
-              <div class="slist-btn">
+              <div class="slist-btn  !self-center">
                 <button class="s-btn">
                   <i class="fa fa-arrow-alt-circle-right"></i>
                 </button>
@@ -52,7 +52,7 @@
                 ></span>
               </div>
               <div class="slist-title">Programing Skills</div>
-              <div class="slist-btn">
+              <div class="slist-btn  !self-center">
                 <button class="s-btn">
                   <i class="fa fa-arrow-alt-circle-right"></i>
                 </button>
@@ -67,7 +67,7 @@
                 <span class="iconify" data-icon="iconoir:puzzle"></span>
               </div>
               <div class="slist-title">Tools</div>
-              <div class="slist-btn">
+              <div class="slist-btn  !self-center">
                 <button class="s-btn">
                   <i class="fa fa-arrow-alt-circle-right"></i>
                 </button>
@@ -82,7 +82,7 @@
                 <span class="iconify" data-icon="iconoir:heart"></span>
               </div>
               <div class="slist-title">Favorites</div>
-              <div class="slist-btn">
+              <div class="slist-btn  !self-center">
                 <button class="s-btn">
                   <i class="fa fa-arrow-alt-circle-right"></i>
                 </button>
@@ -346,7 +346,7 @@
             <span class="iconify" data-icon="iconoir:info-empty"></span>
           </div>
           <div class="slist-title">Basic Information</div>
-          <div class="slist-btn">
+          <div class="slist-btn  !self-center">
             <div class="s-btn">
               <i class="fa fa-arrow-alt-circle-right"></i>
             </div>
@@ -440,7 +440,7 @@
             <span class="iconify" data-icon="iconoir:book"></span>
           </div>
           <div class="slist-title">Education</div>
-          <div class="slist-btn">
+          <div class="slist-btn  !self-center">
             <div class="s-btn">
               <i class="fa fa-arrow-alt-circle-right"></i>
             </div>
@@ -482,7 +482,7 @@
             ></span>
           </div>
           <div class="slist-title">Programing Skills</div>
-          <div class="slist-btn">
+          <div class="slist-btn  !self-center">
             <div class="s-btn">
               <i class="fa fa-arrow-alt-circle-right"></i>
             </div>
@@ -543,7 +543,7 @@
             <span class="iconify" data-icon="iconoir:puzzle"></span>
           </div>
           <div class="slist-title">Tools</div>
-          <div class="slist-btn">
+          <div class="slist-btn  !self-center">
             <div class="s-btn">
               <i class="fa fa-arrow-alt-circle-right"></i>
             </div>
@@ -601,7 +601,7 @@
             <span class="iconify" data-icon="iconoir:heart"></span>
           </div>
           <div class="slist-title">Favorites</div>
-          <div class="slist-btn">
+          <div class="slist-btn  !self-center">
             <div class="s-btn">
               <i class="fa fa-arrow-alt-circle-right"></i>
             </div>
@@ -611,7 +611,7 @@
         <button @click="show('4')" class="accordion slist5">
           <div class="slist-icon-phone"></div>
           <div class="slist-title">digital marketing</div>
-          <div class="slist-btn"></div>
+          <div class="slist-btn  !self-center"></div>
         </button>
         <div :class="shownBox[4] ? 'show' : ''" class="panel last-panel">
           <div class="side-content-p">
@@ -651,7 +651,7 @@
         >
           <div class="slist-icon-phone"></div>
           <div class="slist-title">web design &amp; development</div>
-          <div class="slist-btn">
+          <div class="slist-btn  !self-center">
             <div class="s-btn">
               <i class="fa fa-arrow-alt-circle-right"></i>
             </div>

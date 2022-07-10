@@ -49,12 +49,12 @@
       </div>
     </div>
 
-    <div class="pre-projects PRO2">
-      <div class="project-details mt-[10vh]">
+    <div class="pre-projects PRO2 md:mt-[30vh]">
+      <div class="project-details mt-[10vh] ">
         <div class="text-5xl mb-6 md:text-right test-center">
           ZENA NewsNetwork
         </div>
-        <div class="text-justify pl-12 md:pr-0 md:pl-36 pl-0 pr-12 mb-2">
+        <div class="text-justify md:pr-0 md:pl-36 pl-0 pr-12 mb-2">
           &emsp; A news network platform that organizes, update and post news
           daily, so no one has to search through different platforms just to get
           news and get informed. this system posts news from different news

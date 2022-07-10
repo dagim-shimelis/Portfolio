@@ -10,9 +10,9 @@
           class="drop-shadow-2xl rounded-lg "
           alt="profile"
         />
-      <div class="p-3 md:p-16 md:pt-0 ">
+      <div class="p-3 md:pl-16  md:pt-0 ">
         <div class="capitalize font-Lexend text-2xl mb-5">Who I am</div>
-        <div class="md:pr-16 text-lg font-base">
+        <div class="text-lg font-base">
           <p>
             &emsp; I’m Dagim Shimelis, a professional and talented Product
             Designer with front end & back end development skills. I am

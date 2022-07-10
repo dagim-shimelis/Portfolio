@@ -1,8 +1,6 @@
 <template>
   <div class="landing-page">
-    <nav
-      class=" w-screen z-50 px-2 sm:px-4 py-2.5  dark:bg-gray-800"
-    >
+    <nav class="w-screen z-50 px-2 sm:px-4 py-2.5 bg-gray-800">
       <div
         class="container flex flex-wrap justify-between items-center mx-auto"
       >
@@ -13,14 +11,14 @@
             alt="Logo"
           />
           <span
-            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+            class="self-center text-xl font-semibold whitespace-nowrap text-white"
             >Dagim Shimelis</span
           >
         </a>
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden "
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
@@ -66,7 +64,7 @@
             <li>
               <a
                 href="#"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="block py-2 pr-4 pl-3 border-t md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 aria-current="page"
                 >Home</a
               >
@@ -74,28 +72,28 @@
             <li>
               <a
                 href="#about"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="block py-2 pr-4 pl-3 border-t md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 >About</a
               >
             </li>
             <li>
               <a
                 href="#projects"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="block py-2 pr-4 pl-3 border-t md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 >Projects</a
               >
             </li>
             <li>
               <a
                 href="#tools"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="block py-2 pr-4 pl-3 border-t md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 >Tools</a
               >
             </li>
             <li>
               <a
                 href="#contact"
-                class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pr-4 pl-3 border-t md:border-0 md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                 >Contact</a
               >
             </li>
@@ -107,7 +105,7 @@
     <header class="w-screen">
       <!--        hero pic and content -->
       <div
-        class="hero w-screen h-[auto] min-h-screen md:h-[100vh] grid grid-rows-2 md:grid-cols-2 md:mt-[20vh] -mt-[10vh]"
+        class="hero w-screen h-[auto] min-h-screen md:h-[100vh] grid grid-rows-2 md:grid-cols-2 md:mt-[20vh] -mt-[10vh] md:ml-24"
         id="hero"
       >
         <div
@@ -146,7 +144,7 @@
             />
           </div>
         </div>
-        <div class="ml-16 z-30 mt-52 md:mt-24">
+        <div class="mx-auto z-30 mt-52 md:mt-24 md:ml-28 2xl:ml-40">
           <div class="">
             <div
               class="hero-title-nbr text-primaryTextWhite md:text-2xl ease duration-1000 text-xl font-md self-center overflow-hidden"
@@ -169,7 +167,7 @@
           </div>
           <a href="https://mailxto.com/47ayns" target="_blank">
             <button
-              class="hero-btn ml-12 md:ml-0 uppercase cursor-pointer outline-none border-2 border-primaryTextTheme px-6 rounded-md text-xl text-primaryTextTheme border-solid mt-12 hover:text-primaryTextBlack hover:bg-primaryTextTheme"
+              class="hero-btn ml-20 md:ml-0 uppercase cursor-pointer outline-none border-2 border-primaryTextTheme px-6 rounded-md text-xl text-primaryTextTheme border-solid mt-12 hover:text-primaryTextBlack hover:bg-primaryTextTheme"
             >
               Let's Talk
             </button></a
