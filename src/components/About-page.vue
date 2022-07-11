@@ -6,8 +6,8 @@
       class="about-me-content mt-6 md:mt-12 text-justify md:text-left px-12 md:px-32 grid  md:grid-cols-2"
     >
         <img
-          src="@/assets/image/profile-pic.jpg"
-          class="drop-shadow-2xl rounded-lg "
+          src="@/assets/image/profile-color.jpeg"
+          class="drop-shadow-2xl rounded-lg grayscale hover:grayscale-0"
           alt="profile"
         />
       <div class="p-3 md:pl-16  md:pt-0 ">
