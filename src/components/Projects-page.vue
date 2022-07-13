@@ -42,7 +42,7 @@
            90% Complete
           </div>
         <div class="p-link md:mt-12 mt-4 text-lg">
-          <a href="https://cookies-cafe.herokuapp.com/" target="_blank"
+          <a href="http://cookies-cafe.herokuapp.com/" target="_blank"
             >Go to WebPage</a
           >
         </div>
